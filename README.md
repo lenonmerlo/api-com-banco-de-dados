@@ -34,7 +34,7 @@ cd nome-do-repositorio
 ### **3️⃣ Instalar Dependências**
 ```bash
 npm install
-
+```
 
 ### **4️⃣ Configurar o Banco de Dados**
 Crie um banco de dados PostgreSQL.
@@ -44,19 +44,20 @@ Configure o arquivo .env na raiz do projeto com as credenciais do banco:
 ```bash
 Copy
 DATABASE_URL=postgres://usuario:senha@localhost:5432/seu_banco
-
+```
 
 ### **5️⃣ Rodar a Migração do Banco**
 Execute o script para criar as tabelas:
 
 ```bash
 node database/syncDatabase.js
-
+```
 
 ### **6️⃣ Iniciar o Servidor**
 ```bash
 npm start
 O servidor estará rodando em http://localhost:3000 🚀.
+```
 
 ## 📌 **Rotas da API**
 🛍 Produtos
@@ -95,7 +96,7 @@ DELETE	/customers/:id	Remove um cliente
 │── package.json
 │── server.js
 │── README.md
-
+```
 
 ## **📌 Melhorias Futuras**
 ✅ Adicionar autenticação com JWT
